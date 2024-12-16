@@ -1,0 +1,183 @@
+.tree-management-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.welcome-paragraph {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #d7eee377;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-paragraph h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.welcome-paragraph p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.welcome-paragraph ol {
+  margin-left: 20px;
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+.welcome-paragraph strong {
+  font-weight: bold;
+}
+
+.current-step-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.member-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-id,
+.input-parent-id,
+.input-nom,
+.input-prenom,
+.input-sexe,
+.input-date-naissance,
+.input-profession,
+.input-photo {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-member-button,
+.next-step-button,
+.save-tree-button,
+.view-tree-button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #0f97f1c7;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-member-button {
+  background-color: #0f97f1c7;
+}
+.add-member-button :hover {
+  background-color: #0f97f1ab;
+}
+
+.next-step-button {
+  background-color: #0f97f1c7;
+}
+.next-step-button :hover{
+  background-color: #0f97f1ab;
+}
+
+.save-tree-button {
+  background-color: #0f97f1c7;
+}
+.save-tree-button :hover {
+  background-color: #0f97f1ab;
+}
+
+.view-tree-button {
+  background-color: #0f97f1c7;
+}
+.view-tree-button :hover{
+  background-color: #0f97f1ab;
+}
+
+.members-list {
+  margin-top: 20px;
+}
+
+.member-item {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #f44336; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.d3-component {
+  margin-top: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: auto;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0;
+  border-radius: 8px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip.visible {
+  opacity: 1;
+}

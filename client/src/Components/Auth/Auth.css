@@ -1,0 +1,93 @@
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e2f5d8; 
+  background-size: cover;
+  overflow: hidden; 
+}
+
+.sign-up-form {
+  width: calc(100% - 40px);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+input {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0f97f1c7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f97f171;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+p a {
+  color: #551394;  
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+}
+
+
+.alert-pending {
+  background-color: #ffe6cc;
+  color: #cc6600;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 16px;
+  border: 1px solid #cc6600;
+}
+
+.alert-rejected {
+  background-color: #fcaaaa;
+  color: #b11010;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 16px;
+  border: 1px solid #cc0000;
+}

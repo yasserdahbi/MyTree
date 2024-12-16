@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e2f5d8; 
+  }
+  
+  .container-header {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .logout-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 10px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    position: fixed;
+    top: 27px;
+    right: 20px;
+    width: 120px; 
+  }
+  
+  .logout-button:hover {
+    opacity: 0.8;
+  }
+  
+  .logout-button.top-right {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .admin-title {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .container {
+    background-color: #ffffffc0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .user-list {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-list .header-row, .user-request-card {
+    display: table-row;
+  }
+  
+  .user-list .header-row div, .user-request-card div {
+    display: table-cell;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  .user-list .header-row {
+    background-color: #f9f9f9d5;
+    font-weight: bold;
+  }
+  
+  .user-request-card {
+    background-color: #ffffff6b;
+  }
+  
+  .user-request-card:nth-child(even) {
+    background-color: #f9f9f98f;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .actions button {
+    padding: 5px 2px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    background-color: #45a049;
+  }
+  
+  .actions button:nth-child(2) {
+    background-color: #fa6f60;
+  }
+  
+  .actions button:nth-child(2):hover {
+    background-color: #c0392b;
+  }
+  
+  .actions button:nth-child(3) {
+    background-color: #0f97f1c7;
+  }
+  
+  .actions button:nth-child(3):hover {
+    background-color: #0f97f1ab;
+  }
